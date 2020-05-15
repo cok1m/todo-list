@@ -1,0 +1,61 @@
+.todo-list-item {
+  display: flex;
+  margin: 5px auto;
+  padding: 5px 10px;
+  justify-content: space-between;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 5px;
+  transition: all linear .2s;
+
+}
+.todo-list-item:hover {
+  box-shadow: 0 0 5px rgb(65, 65, 65);
+}
+
+.todo-list-item-label {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.todo-list-item.done .todo-list-item-label {
+  text-decoration: line-through;
+}
+
+.todo-list-item.important .todo-list-item-label {
+  color: steelblue;
+}
+
+.todo-list-item button {
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+  outline: none;
+  margin: 0 3px;
+  cursor: pointer;
+  transition: all linear .3s;
+  border-radius: 5px;
+}
+
+.todo-list-item .button-delete {
+  border: 1px solid rgb(209, 82, 82);
+  color: red;
+  text-align: center;
+  width: 35px;
+}
+
+.todo-list-item .button-delete:hover {
+  color: #fff;
+  background-color: rgb(209, 82, 82);
+}
+
+.todo-list-item .button-important {
+  border: 1px solid rgb(145, 189, 145);
+  color: rgb(145, 189, 145);
+  width: 40px;
+}
+
+.todo-list-item.important .button-important {
+  background-color: rgb(145, 189, 145);
+  color: #fff;
+}
+

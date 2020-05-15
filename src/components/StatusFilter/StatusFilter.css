@@ -1,0 +1,23 @@
+.status-filter {
+
+}
+
+.status-filter button {
+  height: 30px;
+  width: 50px;
+  border: 1px solid rgb(194, 194, 194);
+  background-color: #fff;
+  transition: all linear .1s;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.status-filter button:active {
+  box-shadow: 0 0 2px rgb(65, 65, 65);
+}
+
+.button-active {
+  box-shadow: 0 0 5px rgb(65, 65, 65);
+}

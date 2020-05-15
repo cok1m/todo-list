@@ -1,0 +1,25 @@
+.search-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-panel input {
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+  height: 30px;
+  width: 180px;
+  padding: 5px;
+  outline: none;
+  transition: all linear .2s;
+}
+
+.search-panel input:focus {
+  box-shadow: 0 0 5px rgb(65, 65, 65)
+}
+
+@media (max-width: 320px) {
+  .search-panel input {
+    width: 135px;
+  }
+}
